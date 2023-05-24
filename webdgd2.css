@@ -1,0 +1,1012 @@
+.spm__link-list:hover
+{
+    color: rgb(115, 136, 136);
+}
+
+.container__spm
+{
+    margin:0px 150px 50px 150px;
+    padding: 0 15px;
+    height: 500px;
+    width: 1200px;
+     overflow: hidden; 
+     position: relative;
+    /* background-color: rgb(93, 124, 178); */
+}
+.tittle__spm
+{
+    padding: 16px 16px 16px 0;
+    height: 30px;
+    width: 1200px;
+    align-items: center;
+    /* background-color: rgb(43, 122, 64); */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tittle__spm h3
+{
+    font-size: 24px;
+
+}
+.spm__link
+{
+    display: flex;
+    list-style: none;
+    /* text-align: right; */
+}
+
+.spm__link-list
+{
+    /* text-align: right; */
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    font-size: 14px;
+}
+.spm__link-list1
+{
+    margin: 0px;
+}
+
+
+
+.container__spm-sp
+{
+    height: 395px;
+    /* background-color: rgb(32, 168, 55); */
+    padding: 55px 0 0px 0;
+    display: flex;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.thongtin
+{
+    display: block;
+}
+
+
+
+
+.spm-sp-1
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+.spm-sp-1-anh
+{
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.spm-sp-1-anh img
+{
+    width: 200px;
+    height: 200px;
+}
+/* .spm-sp-1-name
+{
+    height: 40px;
+    padding: 0px 10px 5px 0px;
+     background-color: crimson; 
+} */
+.thongtin a
+{
+    font-size: 14px;
+    padding: 0 10px 5px 0;
+    text-decoration: none;
+    color: #1472d0;
+}
+.rating
+{
+    height: 28px;
+    white-space: nowrap;
+}
+.rating__star a{
+    margin: 0px;
+    padding: 0px; 
+    align-items: center;
+}
+.rating__star 
+{
+    width: 100px;
+    height: 28px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+.bi-star-fill
+{
+    /* display: inline-block; */
+    font-size: 12px;
+    /* align-items: left; */
+    margin: 0px 10px 0px 0px;
+
+}
+
+.spm-sp-1-price
+{
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+
+
+/* 2 */
+
+.spm-sp-2
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 3 */
+
+
+.spm-sp-3
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 4 */
+.spm-sp-4
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 5 */
+.spm-sp-5
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 6 */
+.spm-sp-6
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 7 */
+.spm-sp-7
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+.swiper-slide
+{
+    position: relative;
+}
+
+.prevv, .nextt {
+     cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(23, 18, 18);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } 
+.prevv {
+    
+    left: -35px;
+}
+ /* thiết kế nút mũi tên next nằm phía bên phải  */
+  .nextt { 
+    right: -35px;
+    border-radius: 3px 0 0 3px;
+  }
+ /* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+  .prevv:hover, .nextt:hover {
+    background-color: rgba(241, 239, 239, 0.8);
+  }
+
+
+
+
+
+
+
+/* TIVI */
+.container__tivi
+{
+    margin:0px 150px 50px 150px;
+    padding: 0 15px;
+    height: 500px;
+    width: 1200px;
+    /* background-color: rgb(93, 124, 178); */
+}
+.tittle__tivi
+{
+    padding: 16px 16px 16px 0;
+    height: 30px;
+    width: 1200px;
+    align-items: center;
+    /* background-color: rgb(43, 122, 64); */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tittle__tivi h3
+{
+    font-size: 24px;
+
+}
+.tivi__link
+{
+    display: flex;
+    list-style: none;
+    /* text-align: right; */
+}
+
+.tivi__link-list
+{
+    /* text-align: right; */
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    font-size: 14px;
+}
+.tivi__link-list1
+{
+    margin: 0px;
+}
+
+
+.container__tivi-sp
+{
+    height: 395px;
+    /* background-color: rgb(32, 168, 55); */
+    padding: 55px 0 0px 0;
+    display: flex;
+}
+
+
+
+
+
+
+.tivi-sp-1
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+.tivi-sp-1-anh
+{
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tivi-sp-1-anh img
+{
+    width: 200px;
+    height: 200px;
+}
+.tivi-sp-1-name
+{
+    height: 40px;
+    padding: 0px 10px 5px 0px;
+    /* background-color: crimson; */
+}
+.tivi-sp-1-name a
+{
+    font-size: 14px;
+    padding: 0 10px 5px 0px;
+    text-decoration: none;
+    color: #1472d0;
+    
+}
+.tivi-sp-1-price
+{
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+
+
+/* 2 */
+
+.tivi-sp-2
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 3 */
+
+
+.tivi-sp-3
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 4 */
+.tivi-sp-4
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 5 */
+.tivi-sp-5
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+
+
+
+
+
+/* Điện gia dụng */
+.container__dgd
+{
+    margin:0px 150px 50px 150px;
+    padding: 0 15px;
+    height: 500px;
+    width: 1200px;
+    /* background-color: rgb(93, 124, 178); */
+}
+.tittle__dgd
+{
+    padding: 16px 16px 16px 0;
+    height: 30px;
+    width: 1200px;
+    align-items: center;
+    /* background-color: rgb(43, 122, 64); */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tittle__dgd h3
+{
+    font-size: 24px;
+
+}
+.dgd__link
+{
+    display: flex;
+    list-style: none;
+    /* text-align: right; */
+}
+
+.dgd__link-list
+{
+    /* text-align: right; */
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    font-size: 14px;
+}
+.dgd__link-list1
+{
+    margin: 0px;
+}
+
+
+.container__dgd-sp
+{
+    height: 395px;
+    /* background-color: rgb(32, 168, 55); */
+    padding: 55px 0 0px 0;
+    display: flex;
+}
+
+.dgd-sp-1
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+.dgd-sp-1-anh
+{
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.dgd-sp-1-anh img
+{
+    width: 200px;
+    height: 200px;
+}
+.dgd-sp-1-name
+{
+    height: 40px;
+    padding: 0px 10px 5px 0px;
+    /* background-color: crimson; */
+}
+.dgd-sp-1-name a
+{
+    font-size: 14px;
+    padding: 0 10px 5px 0px;
+    text-decoration: none;
+    color: #1472d0;
+}
+.dgd-sp-1-price
+{
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+
+
+/* 2 */
+
+.dgd-sp-2
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 3 */
+
+
+.dgd-sp-3
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 4 */
+.dgd-sp-4
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 5 */
+.dgd-sp-5
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+
+/* Máy giăt, máy sấy */
+.container__mgms
+{
+    margin:0px 150px 50px 150px;
+    padding: 0 15px;
+    height: 500px;
+    width: 1200px;
+    /* background-color: rgb(93, 124, 178); */
+}
+.tittle__mgms
+{
+    padding: 16px 16px 16px 0;
+    height: 30px;
+    width: 1200px;
+    align-items: center;
+    /* background-color: rgb(43, 122, 64); */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tittle__mgms h3
+{
+    font-size: 24px;
+
+}
+.mgms__link
+{
+    display: flex;
+    list-style: none;
+    /* text-align: right; */
+}
+
+.mgms__link-list
+{
+    /* text-align: right; */
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    font-size: 14px;
+}
+.mgms__link-list1
+{
+    margin: 0px;
+}
+
+
+.container__mgms-sp
+{
+    height: 395px;
+    /* background-color: rgb(32, 168, 55); */
+    padding: 55px 0 0px 0;
+    display: flex;
+}
+
+.mgms-sp-1
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+.mgms-sp-1-anh
+{
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mgms-sp-1-anh img
+{
+    width: 200px;
+    height: 200px;
+}
+.mgms-sp-1-name
+{
+    height: 40px;
+    padding: 0px 10px 5px 0px;
+    /* background-color: crimson; */
+}
+.mgms-sp-1-name a
+{
+    font-size: 14px;
+    padding: 0 10px 5px 0px;
+    text-decoration: none;
+    color: #1472d0;
+}
+.mgms-sp-1-price
+{
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+
+
+/* 2 */
+
+.mgms-sp-2
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 3 */
+
+
+.mgms-sp-3
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 4 */
+.mgms-sp-4
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 5 */
+.mgms-sp-5
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+
+
+/* Bình nóng lạnh, máy lọc nước */
+.container__bnl
+{
+    margin:0px 150px 50px 150px;
+    padding: 0 15px;
+    height: 500px;
+    width: 1200px;
+    /* background-color: rgb(93, 124, 178); */
+}
+.tittle__bnl
+{
+    padding: 16px 16px 16px 0;
+    height: 30px;
+    width: 1200px;
+    align-items: center;
+    /* background-color: rgb(43, 122, 64); */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tittle__bnl h3
+{
+    font-size: 24px;
+
+}
+.bnl__link
+{
+    display: flex;
+    list-style: none;
+    /* text-align: right; */
+}
+
+.bnl__link-list
+{
+    /* text-align: right; */
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    font-size: 14px;
+}
+.bnl__link-list1
+{
+    margin: 0px;
+}
+
+
+.container__bnl-sp
+{
+    height: 395px;
+    /* background-color: rgb(32, 168, 55); */
+    padding: 55px 0 0px 0;
+    display: flex;
+}
+
+.bnl-sp-1
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+.bnl-sp-1-anh
+{
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bnl-sp-1-anh img
+{
+    width: 200px;
+    height: 200px;
+}
+.bnl-sp-1-name
+{
+    height: 40px;
+    padding: 0px 10px 5px 0px;
+    /* background-color: crimson; */
+}
+.bnl-sp-1-name a
+{
+    font-size: 14px;
+    padding: 0 10px 5px 0px;
+    text-decoration: none;
+    color: #1472d0;
+}
+.bnl-sp-1-price
+{
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+
+
+/* 2 */
+
+.bnl-sp-2
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 3 */
+
+
+.bnl-sp-3
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 4 */
+.bnl-sp-4
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 5 */
+.bnl-sp-5
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+
+
+/* Tủ lạnh */
+.container__tl
+{
+    margin:0px 150px 50px 150px;
+    padding: 0 15px;
+    height: 500px;
+    width: 1200px;
+    /* background-color: rgb(93, 124, 178); */
+}
+.tittle__tl
+{
+    padding: 16px 16px 16px 0;
+    height: 30px;
+    width: 1200px;
+    align-items: center;
+    /* background-color: rgb(43, 122, 64); */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tittle__tl h3
+{
+    font-size: 24px;
+
+}
+.tl__link
+{
+    display: flex;
+    list-style: none;
+    /* text-align: right; */
+}
+
+.tl__link-list
+{
+    /* text-align: right; */
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    font-size: 14px;
+}
+.tl__link-list1
+{
+    margin: 0px;
+}
+
+
+.container__tl-sp
+{
+    height: 395px;
+    /* background-color: rgb(32, 168, 55); */
+    padding: 55px 0 0px 0;
+    display: flex;
+}
+
+.tl-sp-1
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+.tl-sp-1-anh
+{
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.tl-sp-1-anh img
+{
+    width: 200px;
+    height: 200px;
+}
+.tl-sp-1-name
+{
+    height: 40px;
+    padding: 0px 10px 5px 0px;
+    /* background-color: crimson; */
+}
+.tl-sp-1-name a
+{
+    font-size: 14px;
+    padding: 0 10px 5px 0px;
+    text-decoration: none;
+    color: #1472d0;
+}
+.tl-sp-1-price
+{
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+
+
+/* 2 */
+
+.tl-sp-2
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 3 */
+
+
+.tl-sp-3
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* 4 */
+.tl-sp-4
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+/* 5 */
+.tl-sp-5
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+
+
+
+
+
+

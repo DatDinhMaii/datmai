@@ -1,0 +1,80 @@
+.container__dichvu
+{
+    margin:0px 150px 50px 150px;
+    padding: 0 15px;
+    height: 65px;
+    width: 1200px;
+    background-color: chocolate;
+    display: flex;
+}
+.dichvu__gh
+{
+    width: 240px;
+    height: 45px;
+    padding: 10px 30px;
+    display: flex; 
+    align-items: center;
+}
+.dichvu__gh i
+{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+.dichvu__text
+{
+    font-size: 16px;
+    padding: 0 0 0 25px;
+}
+.bi-rocket-takeoff
+{
+    font-size: 35px;
+    align-items: center;
+}
+
+/* đổi trả */
+.dichvu__dt
+{
+    width: 240px;
+    height: 45px;
+    padding: 10px 30px;
+    display: flex; 
+    align-items: center;
+}
+.bi-arrow-repeat 
+{
+    font-size: 35px;
+    align-items: center;
+}
+
+
+/* thanh toán */
+.dichvu__tt
+{
+    width: 240px;
+    height: 45px;
+    padding: 10px 30px;
+    display: flex; 
+    align-items: center;
+}
+.bi-credit-card-2-back
+{
+    font-size: 35px;
+    align-items: center;
+}
+
+
+/* hỗ trợ */
+.dichvu__ht
+{
+    width: 240px;
+    height: 45px;
+    padding: 10px 30px;
+    display: flex; 
+    align-items: center;
+}
+.bi-chat-left-text
+{
+    font-size: 35px;
+    align-items: center;
+}

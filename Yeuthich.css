@@ -1,0 +1,317 @@
+ 
+    /* reset */
+    .app
+    {
+        width:1540px;
+        max-width: 100%;
+        margin:0px;
+        padding: 0px;
+    } 
+    
+    *
+    {
+        padding:0;
+        margin: 0;
+        /* font-family:'Courier New', Courier, monospace; */
+        font-family: 'Quicksand', sans-serif;
+    }
+ 
+    .header
+    {
+     width: 100%;
+     display: flex;
+     margin:0px;
+     padding: 0px;
+     height: 135px;
+     background-image: linear-gradient(to right,rgba(255,222,248,1),rgba(255,0,0,1));
+    }
+    .header__container
+    {
+     /* position: absolute; */
+     position: relative;
+     width: 100%;
+     padding:20px 0px;
+     margin: 0px;
+     height: 45px;
+     position: fixed;
+     z-index: 10;
+     background-image: linear-gradient(to right,rgba(255,222,248,1),rgba(255,0,0,1));
+    }
+ 
+    .header-with-search
+    {
+     display: flex;
+     margin:0px;
+     margin: 0 145px;
+     padding: 0px 15px;
+    }
+ 
+    .header__logo
+    {
+        width: 200px;
+        padding-right: 60px;
+    }
+    .header__logo-img
+    {
+        width: 20px;
+    }
+    
+    .header__search
+    {
+        flex: 1;
+        height: 40px;
+        background-color: aliceblue;
+        border-radius: 3px;
+        display: flex;
+    }
+    .form-control
+    {
+        height:40px;
+        border-radius: 3px;
+        width: 150px;
+        border: 0;
+    }
+    
+    .header__search-input
+    {
+        width: 350px;
+        height: 40px;
+        padding: 0px 20px;
+        border: 0;
+        border-left: 1px solid #e1e1e1;
+    }
+    .header__icon
+    {
+        width: 200x;
+        text-align: center;
+        display: flex;
+    }
+    .bi{
+        margin: 0 15px;
+    }
+    .bi-heart 
+    {
+        margin-top: 3.5px;
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .bi-cart4
+    {
+        font-size: 30px;
+    }
+    .bi-person
+    {
+        font-size: 35px;
+    }
+    .header__search-btn
+    {
+        flex:1;
+        border: none;
+        background-color: #dd2400;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        color: white;
+    }
+    .header__sign
+    {
+        list-style: none;
+        text-align:left ;
+        padding-left: -10px;
+    
+    }
+    .header__sign-link
+    {
+        text-decoration:none;
+        font-size: 14px;
+        color: white;
+        font-weight: 500px;
+        /* font-family: sans-serif; */
+    }
+ 
+ 
+ .menu
+ {
+    /* position: absolute; */
+     bottom: -85px;
+     width: 100%;
+     position: relative;
+     display: block;
+     margin:0px 150px;
+     padding: 0 15px;
+     height: 50px;
+     /* background-image: linear-gradient(#ffe2fc,#ff0202);  */
+     /* background-color: aqua; */
+ 
+ }
+ .menu__nav
+ {
+     padding: 20px 0;
+     list-style: none;
+     display: flex;
+     text-align: center;
+     display: block;
+ }
+ .menu__nav-list
+ {
+     width: 50x;
+     padding: 15px 31.5px;
+     /* margin:20px 40px 0px 0; */
+     text-decoration: none;
+     color: white;
+     font-weight: 400;
+     font-size: 15px;
+     /* font-family: sans-serif; */
+     
+  
+ }
+ .menu__nav-list1
+ {
+     text-decoration: none;
+     color: white;
+     /* font-family: sans-serif; */
+ }
+ 
+    /* container */
+    /* Đoạn tên trang hiện tại */
+    .diachi
+    {
+        position: relative;
+        margin:0px 150px;
+        padding: 0 15px;
+        padding: 20px;
+    }
+    
+    .diachi .addetail{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        list-style: none;
+    }
+    .addd{
+        text-decoration: none;
+      
+    }
+/* Cart */
+.yeuthich{
+    min-height: 100vh;
+    background-color: #f1f1f1;
+}
+.yeuthich .yeuthich-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 1230px;
+    max-width: 1140px;
+}
+.yeuthich-header{
+    text-align: center;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.yeuthich .yeuthich-header h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.yeuthich-content{
+    text-align: center;
+    margin: 0 0 10px;
+}
+.yeuthich .yeuthich-content p{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+    /* footer */
+    .footer
+    {
+        margin:0px 150px;
+        padding: 0 15px;
+        height: 250px;
+        display:flex;
+        /* background-color:rgb(22, 161, 27) ; */
+        text-align: center;
+        /* justify-content: space-between; */
+        /* font-family:sans-serif; */
+    
+    }
+    .title
+    {
+        margin: 0 0 30px;
+        font-size: 16px;
+    }
+    .footer__cs li
+    {
+        list-style: none;
+        margin:0 0 10px 0;  
+    }
+    .footer__cs-link
+    {
+        text-decoration: none;
+        color: #9c9788;
+        
+        height: 16px;
+    }
+    .footer__div
+    {
+        width: 240px;
+        height: 240px;
+        /* padding: 0 20px; */
+        text-align: left;
+        padding:0 15px
+    }
+    .footer__div-1
+    {
+        width: 380px;
+    }
+    .footer__signup
+    {
+        display: flex;
+        width: 380px;
+        height: 50px;
+        /* background-color: aqua; */
+        border: solid 1px rgb(204, 202, 202);
+        border-radius: 4px;
+        
+    }
+    .footer__div-input
+    {
+        height: 50px;
+        width: 270px;
+        border: 0;
+        border: none;
+        padding: 0 0 0 10px;
+        
+        /* border-left: 1px solid #e1e1e1; */
+        /* border: solid 1px grey;
+        border-right: none;
+        border-radius: 3px; */
+    }
+    .footer__div-1 h4
+    {
+        font-size: 18px;
+    }
+    .footer__div-btn
+    {
+        /* border: solid 1px grey;
+        border-left: none; */
+        border: solid 1px grey;
+        flex:1;
+        height: 50px;
+        border: none;
+        background-color: #dd2400;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        color: white;
+    }
+    .email
+    { 
+         width: 382px;
+        height: 100px;
+        /* background-color: aquamarine;  */
+        margin: 25px 0 0 0;
+     }
+    

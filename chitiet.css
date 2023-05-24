@@ -1,0 +1,374 @@
+.duongdan
+{
+    margin: 0px 150px;
+    padding: 20px 15px;
+    /* background-color: aqua; */
+}
+
+.mainn
+{
+    margin: 0px 150px 0px 150px;
+    padding: 0px 15px;
+    width: 1190px;
+    height: 1380px;
+    /* background-color: aquamarine; */
+    padding: 0 0 30px 0;
+}
+.mainn__sp
+{
+    width: 1150px;
+    /* width: 100%; */
+    height: 600px;
+    padding: 30px 20px;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.mainn__sp img
+{
+    width: 500px;
+    height: 500px;
+}
+.mainn__sp-ct
+{
+    width: 660px;
+    height: 600px;
+    padding-left: 30px;
+    /* background-color: chartreuse; */
+}
+.mainn__sp-ct h1
+{
+    font-size: 24px;
+    padding: 0 0 10px 0;
+}
+.mainn__sp-left
+{
+    width: 600px;
+    height: 600px;
+}
+
+/* .container-ctsp
+{
+    width: 80%;
+    height: 80%; */
+    /* margin: 50px auto; */
+/* } */
+
+.main-ctsp
+{
+    width: 100%;
+    height: 80%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.list-image
+{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-image div
+{
+    flex: 1;
+    padding: 10px;
+}
+
+.list-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* 
+.control
+{
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    color: aqua;
+    transform: translateY(50%);
+} */
+
+.active
+{
+    background-color: aquamarine;
+}
+/* .chuyenanh{
+    display: flex;
+}
+.chuyenanh img{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond; */
+    /* display: flex; */
+    /* margin: 0 10px 0 0;
+} */
+.ct-rate
+{
+    width: 630px;
+    height: 30px;
+    margin: 0 0 20px 0;
+    /* text-align: center; */
+    align-items: center;
+    /* background-color: crimson; */
+    display: flex;
+    border-bottom: solid 1px #cccccc ;
+}
+.ct-rate p
+{
+    width: 210px;
+    height: 20px;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
+    border-right: solid 1px #cccccc;
+    align-items: center;
+}
+.ct-price h2
+{
+    margin: 0 0 20px 0;
+    /* border-bottom: solid 1px #cccccc ; */
+}
+.ngancachh
+{
+    border-bottom: solid 1px #cccccc;
+    margin: 0 0 20px 0;
+}
+.muahang
+{
+    width: 630px;
+    height: 65px;
+    padding: 0 0 30px 0;
+    margin: 0 0 30px 0;
+    border-bottom: solid 1px #cccccc;
+    /* background-color: cornflowerblue; */
+    display: flex;
+}
+.muahang h3
+{
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+.muahang-sl
+{
+    margin: 0 10px 0 0;
+    width: 115px;
+    /* background-color: chocolate; */
+}
+.form-sl
+{
+    display: flex;
+}
+.plus
+{
+    align-items: center;
+    display: flex;
+    position: absolute;
+
+    /* transform: translateX(+145%);
+    transform: translateY(+40%); */
+    right: 691px;
+}
+.minus
+{
+    
+    align-items: center;
+    display: flex;
+    position: absolute;
+    /* transform: translateY(+40%); */
+}
+.form-sl button
+{
+    transform: translateY(+60%); 
+    background:none;
+    border: none;
+}
+.sl-form-control
+{
+    width: 61.8px;
+    height: 36.8px;
+    padding: 0 25px;
+    align-items: center;
+    text-align: center;
+    border: solid 1px black ;
+    /* position: relative; */
+}
+.muahang-add
+{
+    background-color: black;
+    color: white;
+    width: 230px;
+    height: 54px;
+    padding: 15px 30px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transform: translateY(+20%);
+    font-weight: 600;
+}
+.muahang-mua
+{
+    background-color: red;
+    transform: translateY(+20%);
+    color: white;
+    width: 144px;
+    height: 54px;
+    padding: 15px 30px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.bi-hearttt
+{
+    height: 26px;
+    align-items: center;
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+    transform: translateY(+90%)
+}
+
+.sharing
+{
+    height: 40px;
+    padding: 20px;
+    /* background-color: cornflowerblue; */
+}
+.bii
+{
+    font-size: 26px;
+    margin: 0 20px;
+}
+
+.mainn__danhgia
+{
+    /* margin: 0px 150px;
+    padding: 20px 15px; */
+    height: 110px;
+    /* background-color: chartreuse; */
+    padding: 30px 30px 30px 20px;
+    width: 900px;
+}
+.mainn__danhgia-link
+{
+    display: flex;
+    border-bottom: solid 1px yellow;
+    margin: 0 0 50px 0;
+    list-style: none;
+    height: 50px;
+    align-items: center;
+    width: 900px;
+}
+.mainn__danhgia-link a
+{
+    text-decoration: none;
+    font-size: 23px;
+    padding: 15px 20px;
+}
+/* .mainn__danhgia-list
+{
+    font-size: 50px;
+} */
+
+.container__iuthich
+{
+    /* margin:0px 150px 50px 150px;
+    padding: 0 15px; */
+    height: 500px;
+    width: 1200px;
+    /* background-color: rgb(93, 124, 178); */
+}
+.tittle__iuthich
+{
+    padding: 16px 16px 16px 0;
+    height: 30px;
+    width: 1200px;
+    align-items: center;
+    /* background-color: rgb(43, 122, 64); */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tittle__iuthich h3
+{
+    font-size: 24px;
+
+}
+.iuthich__link
+{
+    display: flex;
+    list-style: none;
+    /* text-align: right; */
+}
+
+.iuthich__link-list
+{
+    /* text-align: right; */
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    font-size: 14px;
+}
+.iuthich__link-list1
+{
+    margin: 0px;
+}
+
+
+.container__iuthich-sp
+{
+    height: 395px;
+    /* background-color: rgb(32, 168, 55); */
+    padding: 55px 0 0px 0;
+    display: flex;
+}
+
+.iuthich-sp-1-anh
+{
+    /* width: 240px; */
+    width: 200px;
+    height: 375px;
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0;
+    /* background-color: cornflowerblue; */
+}
+.iuthich-sp-1-anh
+{
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.iuthich-sp-1-anh img
+{
+    width: 200px;
+    height: 200px;
+}
+.iuthich-sp-1-name
+{
+    height: 40px;
+    padding: 0px 10px 5px 0px;
+    /* background-color: crimson; */
+}
+.iuthich-sp-1-name a
+{
+    font-size: 14px;
+    padding: 0 10px 5px 0px;
+    text-decoration: none;
+    color: #1472d0;
+}
+.iuthich-sp-1-price
+{
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+
+
